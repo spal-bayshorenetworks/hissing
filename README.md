@@ -14,7 +14,7 @@
 In most scenarios, phishing emails will have to be released from quarantine to reach user inboxes. This is typical for new domains with no domain authority. It is good to mention this to the client so they have resources prepared to troubleshoot this proces, as it can be lengthy. Make sure to mention this in scoping.
 
 #### Picking a domain
-I like to use sso-client.tld, others like to change the tid to net or something similar. It's also possible to use tricks with numbers and letters, for instance coalfire.com, or if something has a d in it using cl, so clefcon.org. Different fonts render better, and if the url is big enough it's pretty easy to miss, but if it's seen I think it's less convincing than using something like sso-client.
+I like to use sso-client.tld, others like to change the tid to net or something similar. It's also possible to use tricks with numbers and letters, for instance firef1y.com, or if something has a d in it using cl, so clefcon.org. Different fonts render better, and if the url is big enough it's pretty easy to miss, but if it's seen I think it's less convincing than using something like sso-client.
 
 Check if the domain is available according to whois and has no blacklisting on mxtoolbox.com.
 
