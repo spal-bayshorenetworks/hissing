@@ -83,7 +83,8 @@ Campaigns are where you combine everything together to perform final tests then 
 Campaigns
 
 ##### Other Things of Note
-Chrome Flagging Page as Malicious
+
+##### Chrome Flagging Page as Malicious
 It is possible upon visiting the page in chrome during development that chrome will flag the page and domain as malicious. I have found that if you use browsers like Safari this is less likely to happen. My suggestion is simply to not use chrome while testing your phish.
 
 ##### DKIM Service Not Functioning
@@ -201,5 +202,7 @@ To ensure the phishing email is appropriately whitelisted there will need to be 
 A test email can be sent if requested. Please provide a test target if you would like a test.
 ```
 
+#### Tricks
 
+add the base64 encoded html content as HTML comment in the email template to get better text to image ratio for the mail to not get flagged.
 
